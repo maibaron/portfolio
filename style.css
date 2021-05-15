@@ -45,6 +45,7 @@ h3{
 header, #home{
     z-index: 4;
     color:white;
+    padding: 5vh 10vw;
 }
 
 nav ul li a{
