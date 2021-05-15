@@ -1,0 +1,165 @@
+:root{
+    --pcolor: #D7AC9E;
+    --scolor: #CBA135;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+font-family: 'Poiret One', sans-serif;
+font-size: 1.1em;
+  
+}
+
+.container-fluid{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.main-bg{
+    min-height: 100vh;
+    background-image: url("images/main-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.black-overlay{
+    background-color: rgba(0,0,0,0.7);
+    min-height: 100vh;
+    z-index: 3;
+}
+
+header, #home{
+    z-index: 4;
+    color:white;
+}
+
+nav ul li a{
+    color:white !important;
+}
+nav ul li:hover a{
+    color:var(--pcolor) !important;
+}
+
+.welcm, h1, .dividing-hdr{
+    font-family: 'Dancing Script', cursive;
+}
+
+.welcm{
+    font-size: 72pt;
+    margin-top: 5vh;
+}
+
+.intro{
+    font-size: 2em;
+}
+
+.dividing-hdr{
+    text-align: center;
+    background-color: var(--pcolor);
+}
+
+.dividing-hdr h2{
+    padding: 10vh 0;
+    font-size: 42pt;
+}
+
+.proj-des{
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.projLink{
+    background-image: url("images/external-link-symbol.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:8px;
+    display: inline-block;
+    margin:0 10px;
+}
+
+.role-des{
+    color:white;
+    background-color: var(--scolor);
+    display: inline;
+    padding: 3px 7px;
+    font-size: 0.9em;
+}
+
+#home, .pd, article{
+    padding:7vh 10vw;
+}
+
+article:nth-child(even){
+    background-color: rgb(248, 248, 248);
+}
+
+
+#resume{
+    margin-top: 20px;
+ background-color: var(--scolor);
+ color:white;
+ padding: 10px;
+}
+
+#resume:hover{
+    background-color: #be952a;
+}
+
+#resume:active{
+    background-color: #b48b21;
+}
+
+footer{
+    padding:5vh 0;
+    font-size: 0.7em;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+}
+
+footer p{
+    margin: 0;
+}
+footer a{
+    color:white;
+    text-decoration: underline;
+}
+
+#scroll-up{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+    background-color: var(--scolor);
+    opacity: 0.7;
+    color:white;
+    padding: 10px;
+}
+#scroll-up:hover{
+    opacity: 1;
+ 
+}
+img{
+    margin: 40px auto 0 auto;
+    display: block;
+    width: 50%;
+}
+
+@media (max-width:600px) {
+    img{
+        width: 80%;
+    }
+}
