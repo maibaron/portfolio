@@ -28,6 +28,9 @@ h3{
     font-size: 1.5em;
     display: inline-block;
 }
+article p{
+font-weight:600;
+}
 
 .main-bg{
     min-height: 100vh;
